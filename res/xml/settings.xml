@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+            android:id="@+id/isSplashEnabled"
+            android:key="isSplashEnabled"
+            android:title="Pantalla Splash habilitada"
+            android:summary="Deseleccionar para desactivar la pantalla de bienvenida al iniciar la aplicación."
+            android:defaultValue="true"/>
+   
+
+</PreferenceScreen>
